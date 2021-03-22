@@ -1,0 +1,20 @@
+module.exports = {
+  skipFiles: [
+    "__dependencies__",
+    "__mocks__",
+    "constants",
+    "functions",
+    "dapps",
+    "core/actions",
+    "core/diamond/facets/standard",
+    "core/diamond/facets_experimental",
+    "core/diamond/interfaces",
+    "core/diamond/libraries/standard",
+    "core/services",
+    "core/standards",
+    "interfaces",
+    "lib",
+    "structs",
+    "vendor",
+  ],
+};

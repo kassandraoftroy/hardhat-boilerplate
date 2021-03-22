@@ -1,0 +1,8 @@
+# Ignore:
+artifacts
+cache
+coverage
+yarn.lock
+yarn-error.log
+deployments
+node_modules/
