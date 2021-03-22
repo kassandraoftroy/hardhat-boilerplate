@@ -1,7 +1,13 @@
 # hardhat-boilerplate
 boilerplate ethereum dev environment
 
-## Usage
+## requirements
+
+a version of node installed on your computer (probably want 10+) [how to install Node.js](https://heynode.com/tutorial/install-nodejs-locally-nvm)
+
+also helps to have [Metamask browser extension](https://metamask.io/)
+
+## usage
 
 clone repo
 
@@ -14,5 +20,16 @@ create `.env` file in root directory of project (with `touch .env` command)
 
 see `.env.example` for how to format .env file
 
-npx hardhat compile (compilation should succeed)
+npx hardhat compile (compilation should succeed, if that works then everything is configured correctly)
+
+## try deploying the example project
+
+First you will need some testnet (rinkeby) eth. Get some from a faucet ( try [here](https://faucet.rinkeby.io/) or [here](http://rinkeby-faucet.com/) )
+
+Once you have rinkeby ETH you are all ready to deploy your first ERC20 contract!
+
+`npx hardhat deploy --network rinkeby`
+
+this should deploy your ERC20 contract to the rinkeby testnet successfully. Check it out by looking at your Deployer Wallets recent transactions on [rinkeby etherscan](https://rinkeby.etherscan.io/)
+
 
