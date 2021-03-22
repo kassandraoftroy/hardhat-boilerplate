@@ -32,4 +32,10 @@ Once you have rinkeby ETH you are all ready to deploy your first ERC20 contract!
 
 this should deploy your ERC20 contract to the rinkeby testnet successfully. Check it out by looking at your Deployer Wallets recent transactions on [rinkeby etherscan](https://rinkeby.etherscan.io/)
 
+if you want to verify the source code of your contract you need to add `ETHERSCAN_API_KEY` variable to the .env file. You can get an etherscan api key [here](https://etherscan.io/register)
 
+after successful deployment run:
+
+`npx hardhat etherscan-verify --network rinkeby`
+
+now if you view your contract on rinkeby etherscan you will see a green check mark and the source code will be visible there.
